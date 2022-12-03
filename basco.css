@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px 35px 50px;
+    background-color: #8b1310;
+    color: white;
+    border: 2px solid white;
+}
+.nav-items li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.nav-items li a, .nav-items li i {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+.landing{
+    background-image: url(/images/banner.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1034px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    background-color: white;
+    width: 1140px;
+    height: 261px;
+    text-align: center;
+    padding: 10px;
+}
+.intro h1 {
+    font-size: 70px;
+}
+.intro h1 span {
+    color: #fe9a0c;
+} 
+.intro small {
+    font-size: 17px;
+}
+.landing button {
+    height: 60px;
+    width: 200px;
+    margin: 50px;
+}
+.landing button a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.about {
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px; */
+}
+.us {
+    text-align: left;
+    /* justify-self: center; */
+    margin-left: 150px;
+    align-self: flex-start;
+}
+.aboutbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 1140px;
+    margin: 30px;
+    box-shadow: 4px 0 27px rgb(2 3 8 / 20%);
+  
+}
+.best-text {
+    flex-basis: 35%;
+    align-self: baseline;
+   
+ /* padding-top: 40px; */
+}
+.best-text p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #0b0d0a;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+.best-text button {
+    height: 60px;
+    width: 200px;
+    border: none;
+    background-color: #8b1310;
+}
+.best-text button a {
+    text-decoration: none;
+    color: white;
+}
+.best-img img {
+    width: 712.5px;
+    height: 365.7px;
+    transform: translateX(80px);
+}
+.us h2, .aboutbox h3 {
+    font-weight: 700;
+    color: black;
+} 
+button:hover {
+    background-color: #fe9a0c;
+}
+.become {
+    padding-top: 323px;
+    background: url(/images/bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 223px;
+    padding: 150px;
+    color: white;
+    align-items: center;
+}
+.become h2 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+.become h2 span {
+    color: #fe9a0c;
+}
+.become p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer {
+    background-color: #540705;;
+    padding: 50px 100px 50px 100px ;
+    color: white;
+}
+footer span {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    /* align-content: center; */
+}
+.sm-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.sm {
+    display: flex;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+}
+.sm a {
+    color: #8b1310;
+}
+
+footer hr, hr {
+    color: white;
+    background: white;
+    width: 945px;
+}
+.f-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 150px;
+}
+.row1, .row3, .row4 {
+    flex-basis: 25%;
+    margin-right: 15px;
+}
+.row2 {
+    margin-right: 20px;
+}
+.row1, .row2, .row3, .row4 p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+.row2 ul li, .row2 li a  {
+    margin-left: 0;
+    padding-left: 0;
+    color: white;
+    text-decoration: none;
+}
+ a:hover{
+    color: #fe9a0c;
+}
